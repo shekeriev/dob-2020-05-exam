@@ -5,6 +5,7 @@ For a successful completion you have to implement the folllowing steps:
  - (re)build the images;
  - (re)run the containers;
  - mount the /site component where applicable;
+ - ensure the containers are part of one and the same network;
 
 Please note that:
  - each container should be named after the following rule - **dob-role**, where role is *php*, *mariadb*, or *nginx*;
